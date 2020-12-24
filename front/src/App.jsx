@@ -1,4 +1,5 @@
 import './App.css';
+import ProductList from './commponents/ProductList';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           これは実験用アプリです
         </a>
       </header>
+      <ProductList />
     </div>
   );
 }
