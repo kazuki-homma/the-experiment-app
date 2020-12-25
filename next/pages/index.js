@@ -1,9 +1,13 @@
 import Link from 'next/link';
+
+import {Navbar, App} from '../commponents';
 const products = [{name: "bag"}, {name: "shoes"}, {name: "socks"}];
 
 export default function Home() {
   return (
-    <div>
+    <>
+      <Navbar />
+      <App />
       <ul>
         {products.map((product) => {
           return (
@@ -16,6 +20,6 @@ export default function Home() {
         })}
       </ul>
       <h1>Hello Next.js</h1>
-    </div>
+    </>
   )
 }

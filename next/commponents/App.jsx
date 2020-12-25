@@ -1,5 +1,4 @@
-import './App.css';
-import ProductList from './commponents/ProductList';
+import ProductList from './ProductList';
 
 function App() {
   return (

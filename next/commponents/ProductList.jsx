@@ -21,7 +21,7 @@ export default function ProductList() {
       <Grid item xs={12}>
         <Grid container justify="center">
           {[0, 1, 2].map((value) => (
-            <ProductCard />
+            <ProductCard key={value}/>
           ))}
         </Grid>
       </Grid>
